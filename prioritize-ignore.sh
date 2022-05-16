@@ -71,7 +71,7 @@ if [ -z "$REPOTOKEN" ]; then
 fi
         
 if [ -z "$REPOTOKEN" ]; then
-        echo "productToken for repository default branch is empty - Exiting"
+        echo "productToken for repository default branch is empty - Exiting ('$WS_USERKEY')"
     exit
 fi
 
